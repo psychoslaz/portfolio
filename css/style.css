@@ -301,3 +301,38 @@ body{
   color:var(--spooky-color-main);
 } 
 
+
+
+
+/* Media Queries */
+@media(max-width: 950px){
+  #timeline ul li div{
+      width: 15.625rem;
+  }
+
+  #timeline ul li:nth-child(even) div{
+      left: -17.75rem;
+  }
+}
+
+@media(max-width: 600px){ 
+  /* Flyttar Linjen åt vänster */
+  #timeline ul li {
+      margin-left: 1.3rem;
+  }
+
+  /* Gör så att bredden för divarna nästan fyller ut viewporten */
+  #timeline ul li div{
+     width: calc(100vw - 5.625rem);
+  }
+
+  #timeline ul li:nth-child(even) div{
+      left: 2.5rem;
+  }
+
+  #timeline ul li:nth-child(even) div::before{
+      left: -1rem;
+      border-width: 0.5rem 1rem 0.5rem 0;
+      border-color: transparent var(--secondary-color) transparent transparent;
+  }
+}
