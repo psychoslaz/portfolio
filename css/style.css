@@ -301,6 +301,10 @@ body{
   color:var(--spooky-color-main);
 } 
 
+#contact input, #contact textarea{
+  padding: 0.5rem;
+}
+
 
 
 
@@ -335,4 +339,5 @@ body{
       border-width: 0.5rem 1rem 0.5rem 0;
       border-color: transparent var(--secondary-color) transparent transparent;
   }
+  
 }
