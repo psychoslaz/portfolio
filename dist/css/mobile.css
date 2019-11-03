@@ -1,0 +1,19 @@
+.navContainer{
+  flex-direction: column;
+}
+
+.about{
+  flex-direction: column;
+}
+
+.primarySection .container h1{
+  padding: 0 2rem;
+   font-size: 2.4rem; 
+   text-align: center;
+}
+
+.primarySection .container h3{
+   font-size: 1.6rem; 
+   text-align: center;
+}
+
