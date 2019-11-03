@@ -236,6 +236,11 @@ body{
   background: var(--tertiary-color);
 }
 
+#contact .contactContainer{
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* TEXTDEL */
 #contact .contact{
   display: flex;
@@ -306,7 +311,13 @@ body{
   padding: 0.5rem;
 }
 
-
+/* Footer */
+footer{
+  background: var(--tertiary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem 0rem;
+}
 
 
 
